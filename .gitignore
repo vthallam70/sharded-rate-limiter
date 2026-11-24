@@ -1,0 +1,24 @@
+# environments and build output
+.venv/
+.venv-*/
+__pycache__/
+node_modules/
+.next/
+# local run artifacts
+.airflow/
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+logs/
+*.log
+mlruns/
+mlflow.db
+model.joblib
+data/processed/
+data/*.duckdb
+data/raw/boxscores/
+# secrets
+.env
+.env.*
+.localdb_pw
+.DS_Store
